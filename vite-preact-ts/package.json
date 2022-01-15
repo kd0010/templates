@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "preact": "latest"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "latest",
+    "sass": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-tsconfig-paths": "latest"
+  }
+}

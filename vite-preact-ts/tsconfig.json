@@ -1,0 +1,45 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    // ## Type Checking
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    
+    // ## Modules
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "src/*": ["src/*"],
+      "public/*": ["public/*"],
+      "atoms/*": ["src/components/atoms/*"],
+      "molecules/*": ["src/components/molecules/*"],
+      "organisms/*": ["src/components/organisms/*"],
+      "Core/*": ["src/mechanisms/Core/*"],
+      "Modules/*": ["src/mechanisms/Modules/*"],
+      "Components/*": ["src/mechanisms/Components/*"],
+    },
+    "resolveJsonModule": true,
+
+    // ## Emit
+    "noEmitOnError": true,
+    "outDir": "dist/",
+    "removeComments": true,
+
+    // ## Interop Constraints
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+
+    // ## Language and Environment
+    "target": "esnext",
+    // ### Only for Preact projects
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+
+    // ## Projects
+    "incremental": true,
+  }
+}
