@@ -3,14 +3,17 @@
     "dev": "vite",
     "build": "vite build",
     "setup": "npm run create-folders && npm run install-packages",
-    "install-packages": "npm i preact && npm i -D @preact/preset-vite sass typescript vite vite-tsconfig-paths",
+    "install-packages": "npm i react react-dom && npm i -D @types/react @types/react-dom @vitejs/plugin-react sass typescript vite vite-tsconfig-paths",
     "create-folders": "cd src && mkdir components mechanisms && cd components && mkdir atoms molecules organisms && cd ../mechanisms && mkdir Core Modules Components && cd ../../public && mkdir fonts pics"
   },
   "dependencies": {
-    "preact": "latest"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "@preact/preset-vite": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
     "sass": "latest",
     "typescript": "latest",
     "vite": "latest",

@@ -35,9 +35,6 @@
 
     // ## Language and Environment
     "target": "esnext",
-    // ### Preact
-    "jsx": "react-jsx",
-    "jsxImportSource": "preact",
 
     // ## Projects
     "incremental": true,

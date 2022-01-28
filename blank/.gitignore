@@ -6,3 +6,6 @@ dist/
 
 # misc
 .vs_code/
+
+# environment variables
+*.local
