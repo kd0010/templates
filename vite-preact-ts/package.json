@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "setup": "npm run create-folders && npm run install-packages",
     "install-packages": "npm i preact && npm i -D @preact/preset-vite sass typescript vite vite-tsconfig-paths",
     "create-folders": "cd src && mkdir components mechanisms && cd components && mkdir atoms molecules organisms && cd ../mechanisms && mkdir Core Modules Components && cd ../../public && mkdir fonts pics"
