@@ -30,6 +30,7 @@
     "removeComments": true,
 
     // ## Interop Constraints
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
 
