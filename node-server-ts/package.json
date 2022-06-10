@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "serve": "nodemon app.ts",
+    "setup": "npm run setup-folders && npm run setup-packages",
+    "setup-folders": "mkdir src tests && cd src && mkdir Modules Cogs",
+    "setup-packages": "npm i cors express node-fetch && npm i -D @types/cors @types/express @types/node-fetch nodemon typescript"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "express": "latest",
+    "node-fetch": "latest"
+  },
+  "devDependencies": {
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/node-fetch": "latest",
+    "nodemon": "latest",
+    "typescript": "latest"
+  }
+}

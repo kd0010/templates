@@ -1,0 +1,37 @@
+{
+  "include": [
+    "src/**/*",
+    "app.ts",
+  ],
+  "compilerOptions": {
+    // ## Type Checking
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    
+    // ## Modules
+    "module": "commonjs",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    // ## Emit
+    "noEmitOnError": true,
+    "outDir": "dist/",
+    "removeComments": true,
+
+    // ## Interop Constraints
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+
+    // ## Language and Environment
+    "target": "es6",
+
+    // ## Projects
+    "incremental": true,
+  }
+}
