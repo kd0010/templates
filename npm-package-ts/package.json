@@ -1,0 +1,14 @@
+{
+  "name": "PACKAGE_NAME",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rmdir /s dist && tsc"
+  }
+}

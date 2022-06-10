@@ -1,0 +1,30 @@
+{
+  "include": [
+    "src/**/*",
+  ],
+  "compilerOptions": {
+    // ## Type Checking
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+
+    // ## Modules
+    "module": "commonjs",
+
+    // ## Emit
+    "declaration": true,
+    "noEmitOnError": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    
+    // ## Interop Constraints
+    "isolatedModules": true,
+
+    // ## Language and Environment
+    !TODO: `esnext` to target browsers, `commonjs` to target node applications
+    "target": "esnext",
+  }
+}
