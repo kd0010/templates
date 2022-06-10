@@ -12,6 +12,7 @@
     "strict": true,
 
     // ## Modules
+    TODO: `esnext` for browsers, `commonjs` for node applications.
     "module": "commonjs",
 
     // ## Emit
@@ -24,7 +25,6 @@
     "isolatedModules": true,
 
     // ## Language and Environment
-    !TODO: `esnext` to target browsers, `commonjs` to target node applications
     "target": "esnext",
   }
 }
