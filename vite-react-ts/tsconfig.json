@@ -18,7 +18,6 @@
       "atoms/*": ["src/components/atoms/*"],
       "molecules/*": ["src/components/molecules/*"],
       "organisms/*": ["src/components/organisms/*"],
-      "Core/*": ["src/mechanisms/Core/*"],
       "Modules/*": ["src/mechanisms/Modules/*"],
       "Components/*": ["src/mechanisms/Components/*"],
     },
