@@ -14,16 +14,14 @@
     // ## Modules
     TODO: `esnext` for browsers, `commonjs` for node applications.
     "module": "commonjs",
-    "resolveJsonModule": true,
 
     // ## Emit
     "declaration": true,
     "noEmitOnError": true,
     "outDir": "./dist",
-    "removeComments": true,
     
     // ## Interop Constraints
-    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
 
     // ## Language and Environment

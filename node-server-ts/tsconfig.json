@@ -16,7 +16,6 @@
     "module": "commonjs",
     "baseUrl": "./",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
 
     // ## Emit
     "noEmitOnError": true,
@@ -24,7 +23,6 @@
     "removeComments": true,
 
     // ## Interop Constraints
-    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": false,
 

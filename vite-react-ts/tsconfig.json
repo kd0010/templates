@@ -21,7 +21,6 @@
       "Modules/*": ["src/mechanisms/Modules/*"],
       "Components/*": ["src/mechanisms/Components/*"],
     },
-    "resolveJsonModule": true,
 
     // ## Emit
     "noEmitOnError": true,
@@ -29,7 +28,6 @@
     "removeComments": true,
 
     // ## Interop Constraints
-    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
 

@@ -9,9 +9,6 @@
     "/dist"
   ],
   "scripts": {
-    "clean-build": "rmdir /s /q dist && tsc",
-    "publish-new-major": "tsc && npm version major && npm publish",
-    "publish-new-minor": "tsc && npm version minor && npm publish",
-    "publish-new-patch": "tsc && npm version patch && npm publish"
+    "clean-build": "rmdir /s /q dist && tsc"
   }
 }
