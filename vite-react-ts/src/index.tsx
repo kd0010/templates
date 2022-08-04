@@ -1,4 +1,4 @@
-import 'public/styles/global.sass'
+import 'public/styles/main.sass'
 import { render } from 'react-dom'
 import App from './App'
 
