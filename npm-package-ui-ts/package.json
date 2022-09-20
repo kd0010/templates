@@ -1,0 +1,27 @@
+{
+  "name": "PACKAGE_NAME",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "clean-build": "rmdir /s /q dist && tsc",
+    "setup": "npm run setup-folders && npm run setup-packages",
+    "setup-folders": "cd src && mkdir components && cd components && mkdir atoms molecules",
+    "setup-packages": "npm i preact && npm i -D @preact/preset-vite sass typescript vite"
+  },
+  "dependencies": {
+    "preact": "latest"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "latest",
+    "sass": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}

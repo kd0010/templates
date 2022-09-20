@@ -18,7 +18,7 @@
     // ## Emit
     "declaration": true,
     "noEmitOnError": true,
-    "outDir": "./dist",
+    "outDir": "dist/",
     
     // ## Interop Constraints
     "forceConsistentCasingInFileNames": true,

@@ -8,7 +8,8 @@ const App: VoidFunctionComponent<Props> = ({
   
 }) => {
   return (
-    <div></div>
+    <div>
+    </div>
   )
 }
 

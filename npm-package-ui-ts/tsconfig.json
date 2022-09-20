@@ -10,33 +10,24 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "strict": true,
-    
+
     // ## Modules
-    "baseUrl": "./",
+    "module": "esnext",
     "moduleResolution": "node",
-    "paths": {
-      "src/*": ["src/*"],
-      "public/*": ["public/*"],
-      "atoms/*": ["src/components/atoms/*"],
-      "molecules/*": ["src/components/molecules/*"],
-      "organisms/*": ["src/components/organisms/*"],
-      "Modules/*": ["src/mechanisms/Modules/*"],
-      "Components/*": ["src/mechanisms/Components/*"],
-    },
 
     // ## Emit
+    "declaration": true,
     "noEmitOnError": true,
     "outDir": "dist/",
-    "removeComments": true,
-
+    
     // ## Interop Constraints
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
 
     // ## Language and Environment
     "target": "esnext",
-
-    // ## Projects
-    "incremental": true,
+    // ### Preact
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
   }
 }
