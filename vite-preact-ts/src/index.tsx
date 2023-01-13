@@ -1,4 +1,4 @@
-import 'public/styles/main.sass'
+import '../public/styles/main.sass'
 import { render } from 'preact'
 import App from './App'
 
