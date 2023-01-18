@@ -1,6 +1,6 @@
-import './styles/main.sass'
+import './main.sass'
 import { render } from 'preact'
-import App from './App'
+import { App } from './App'
 
 render(
   <App />,
