@@ -2,9 +2,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "setup": "npm run setup-folders && npm run setup-packages",
-    "setup-folders": "cd src && mkdir components mechanisms && cd components && mkdir atoms molecules organisms templates pages && cd ../mechanisms && mkdir Modules Components && cd ../../public && mkdir fonts pics",
-    "setup-packages": "npm i preact && npm i -D @preact/preset-vite sass typescript vite vite-tsconfig-paths"
+    "setup": "npm i preact && npm i -D @preact/preset-vite sass typescript vite vite-tsconfig-paths"
   },
   "dependencies": {
     "preact": "latest"

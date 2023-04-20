@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vite",
     "clean-build": "rmdir /s /q dist && tsc",
-    "setup-packages": "npm i preact && npm i -D @preact/preset-vite sass typescript vite"
+    "setup": "npm i preact && npm i -D @preact/preset-vite sass typescript vite"
   },
   "dependencies": {
     "preact": "latest"
