@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "setup": "npm i preact && npm i -D @preact/preset-vite sass typescript vite vite-tsconfig-paths"
+    "setup": "npm i preact && npm i -D @preact/preset-vite sass typescript vite"
   },
   "dependencies": {
     "preact": "latest"
@@ -11,7 +11,6 @@
     "@preact/preset-vite": "latest",
     "sass": "latest",
     "typescript": "latest",
-    "vite": "latest",
-    "vite-tsconfig-paths": "latest"
+    "vite": "latest"
   }
 }

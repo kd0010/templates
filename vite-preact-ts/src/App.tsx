@@ -4,7 +4,7 @@ interface Props {
   
 }
 
-const App: FunctionComponent<Props> = ({
+export const App: FunctionComponent<Props> = ({
   
 }) => {
   return (
@@ -12,5 +12,3 @@ const App: FunctionComponent<Props> = ({
     </div>
   )
 }
-
-export default App
