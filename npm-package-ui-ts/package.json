@@ -5,14 +5,13 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "setup": "npm i preact && npm i -D @preact/preset-vite sass typescript vite"
+    "setup": "npm i preact && npm i -D @preact/preset-vite typescript vite"
   },
   "dependencies": {
     "preact": "latest"
   },
   "devDependencies": {
     "@preact/preset-vite": "latest",
-    "sass": "latest",
     "typescript": "latest",
     "vite": "latest"
   }

@@ -1,4 +1,4 @@
-import { FunctionComponent } from 'preact'
+import { FunctionComponent, render } from 'preact'
 
 interface Props {
   
@@ -12,3 +12,8 @@ export const App: FunctionComponent<Props> = ({
     </div>
   )
 }
+
+render(
+  <App />,
+  document.getElementById('root')!,
+)

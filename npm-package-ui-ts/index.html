@@ -5,6 +5,31 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Page Title</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <style>
+    *,
+    *::after,
+    *::before {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .no-user-select {
+      user-select: none;
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -ms-touch-select: none;
+      -webkit-user-select: none;
+      -webkit-user-drag: none;
+    }
+  </style>
 </head>
 <body>
   <div id='root'></div>
