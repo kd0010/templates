@@ -1,0 +1,17 @@
+{
+  "name": "TEMP",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build:clean": "rmdir /s /q dist && tsc",
+    "serve": "nodemon ./src/dev/app.ts",
+    "dev": "vite",
+    "setup-dev-node": "npm i -D cors express nodemon @types/cors @types/express",
+    "setup-dev-fe": "npm i -D vite preact @preact/preset-vite",
+    "setup": "npm run setup-dev-node && npm run setup-dev-fe"
+  }
+}
