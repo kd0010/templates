@@ -13,7 +13,7 @@
     "strict": true,
 
     // ## Modules
-    // TODO: `esnext` for browsers, `commonjs` for node applications.
+    // TEMP: `esnext` for browsers, `commonjs`/`nodenext` for node applications.
     "module": "commonjs",
 
     // ## Emit

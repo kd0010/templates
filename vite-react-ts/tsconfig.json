@@ -15,7 +15,6 @@
     "moduleResolution": "node",
 
     // ## Emit
-    "noEmitOnError": true,
     "outDir": "dist/",
     "removeComments": true,
 

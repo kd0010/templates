@@ -8,10 +8,10 @@
   ],
   "scripts": {
     "build:clean": "rmdir /s /q dist && tsc",
-    "serve": "nodemon ./src/dev/app.ts",
+    "serve": "nodemon ./src/dev/nodeApp.ts",
     "dev": "vite",
-    "setup-dev-node": "npm i -D cors express nodemon @types/cors @types/express",
-    "setup-dev-fe": "npm i -D vite preact @preact/preset-vite",
+    "setup-dev-node": "npm i -D cors express nodemon @types/cors @types/express typescript",
+    "setup-dev-fe": "npm i -D vite preact @preact/preset-vite typescript",
     "setup": "npm run setup-dev-node && npm run setup-dev-fe"
   }
 }

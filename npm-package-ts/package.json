@@ -9,6 +9,6 @@
   "scripts": {
     "build:clean": "rmdir /s /q dist && tsc",
     "serve": "nodemon ./src/dev/app.ts",
-    "setup-dev": "npm i -D nodemon express cors @types/express @types/cors"
+    "setup-dev": "npm i -D nodemon express cors @types/express @types/cors typescript"
   }
 }
