@@ -1,4 +1,4 @@
-import { FunctionComponent, render } from 'preact'
+import {FunctionComponent, render} from 'preact'
 
 interface Props {
   
