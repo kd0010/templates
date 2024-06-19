@@ -1,7 +1,5 @@
 {
-  "include": [
-    "src/**/*",
-  ],
+  "include": ["src"],
   "compilerOptions": {
     // ## Type Checking
     "noFallthroughCasesInSwitch": true,
@@ -12,10 +10,17 @@
     "strict": true,
     
     // ## Modules
-    "moduleResolution": "node",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "react": ["./node_modules/preact/compat/"],
+      "react-dom": ["./node_modules/preact/compat/"],
+    },
+    // TEMP test this out
+    "resolveJsonModule": true,
 
     // ## Emit
-    "outDir": "dist/",
+    "noEmit": true,
     "removeComments": true,
 
     // ## Interop Constraints
@@ -24,11 +29,10 @@
 
     // ## Language and Environment
     "target": "es2017",
+    "useDefineForClassFields": true, // experimenting...
     // ### Preact
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
-
-    // ## Projects
-    "incremental": true,
-  }
+  },
+  "references": [{"path": "./tsconfig.node.json"}],
 }
