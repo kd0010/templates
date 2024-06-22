@@ -16,7 +16,6 @@
       "react": ["./node_modules/preact/compat/"],
       "react-dom": ["./node_modules/preact/compat/"],
     },
-    // TEMP test this out
     "resolveJsonModule": true,
 
     // ## Emit
