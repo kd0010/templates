@@ -1,0 +1,20 @@
+{
+  "name": "TEMP",
+  "version": "0.1.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "private": "true",
+  "type": "module",
+  "keywords": [],
+  "scripts": {
+    "temp": "nodemon dev/scripts/temp"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "latest",
+    "nodemon": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}

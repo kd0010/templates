@@ -1,7 +1,5 @@
 {
-  "include": [
-    "src/**/*",
-  ],
+  "include": ["src/**/*"],
   "compilerOptions": {
     // ## Type Checking
     "noFallthroughCasesInSwitch": true,
@@ -10,22 +8,26 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "strict": true,
-    
+
     // ## Modules
+    "module": "esnext",
     "moduleResolution": "node",
 
     // ## Emit
-    "outDir": "dist/",
-    "removeComments": true,
-
+    "declaration": true,
+    "noEmitOnError": true,
+    "outDir": "./dist",
+    
     // ## Interop Constraints
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
 
     // ## Language and Environment
     "target": "es2017",
-
-    // ## Projects
-    "incremental": true,
-  }
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node",
+    "transpileOnly": true,
+  },
 }
