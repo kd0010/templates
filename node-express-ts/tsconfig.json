@@ -26,8 +26,5 @@
 
     // ## Language and Environment
     "target": "es2017",
-
-    // ## Projects
-    "incremental": true,
   }
 }

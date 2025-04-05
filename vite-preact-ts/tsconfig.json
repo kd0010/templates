@@ -28,7 +28,6 @@
 
     // ## Language and Environment
     "target": "es2017",
-    "useDefineForClassFields": true, // experimenting...
     // ### Preact
     "jsx": "react-jsx",
     "jsxImportSource": "preact",

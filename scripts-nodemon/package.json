@@ -8,6 +8,7 @@
   "type": "module",
   "keywords": [],
   "scripts": {
+    "setup": "pnpm i -D @types/node nodemon ts-node typescript",
     "temp": "nodemon dev/scripts/temp"
   },
   "dependencies": {},

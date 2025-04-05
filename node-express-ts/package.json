@@ -1,17 +1,15 @@
 {
   "scripts": {
     "serve": "nodemon app.ts",
-    "setup": "npm i cors express node-fetch && npm i -D @types/cors @types/express @types/node-fetch nodemon typescript"
+    "setup": "pnpm i cors express && pnpm i -D @types/cors @types/express nodemon typescript"
   },
   "dependencies": {
     "cors": "latest",
-    "express": "latest",
-    "node-fetch": "2.6.7"
+    "express": "latest"
   },
   "devDependencies": {
     "@types/cors": "latest",
     "@types/express": "latest",
-    "@types/node-fetch": "latest",
     "nodemon": "latest",
     "typescript": "latest"
   }

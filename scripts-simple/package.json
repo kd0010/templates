@@ -8,6 +8,7 @@
   "type": "module",
   "keywords": [],
   "scripts": {
+    "setup": "pnpm i -D @types/node ts-node typescript",
     "temp": "node --no-warnings --loader ts-node/esm dev/scripts/temp"
   },
   "dependencies": {},

@@ -10,9 +10,7 @@ app.get('/', async (req, res) => {
 })
 
 app.get('/temp', async (req, res) => {
-  const out: any[] = [
-    'something',
-  ]
+  const out: any[] = []
 
   res.send(out)
 })
